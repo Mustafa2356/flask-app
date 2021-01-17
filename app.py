@@ -22,6 +22,7 @@ def parameter(user_id):
 
         return 'Post method'
 
+
     elif request.method == 'PUT':
         return 'Put method'
 
@@ -30,7 +31,7 @@ def parameter(user_id):
     else:
         return 'Not allowed method'
 
- #   return user_id
+ ##   return user_id
 
 
 
